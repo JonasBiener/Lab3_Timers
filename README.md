@@ -151,3 +151,5 @@ To check the new approach we will repeat the procedure of [Question 1.3](#questi
 ## Excercise 3 - For experts (not part of the votation)
 As we are now used to using timers, we could use two of them in parallel. Therefore, Timer0 shall be used to let an LED (you decision which one) blink in a given frequency (don't try to fine tune the frequency, just use one that's simple to achieve) and Timer1 should let another LED blink in a different frequency. You can keep the timer on the display running, but then you need to configure Timer1 and CCP1 in a way that it maintains time steps of x*100ms (i.e. 100, 200, 300, ..., 1100, 1200, ... ms). Feel free to play around with the Timing in order to get used to the necessary calculation. Use the Simulator as done before to check you implementation.
 Keep in mind that the I/O pins need to be configured correctly, in order to use the LEDs. ;)
+
+![](doc/main.png)
